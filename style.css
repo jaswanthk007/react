@@ -1,0 +1,49 @@
+.logo{
+    width:50px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+
+}
+.menu{
+    display:flex;
+    list-style-type: none;
+    margin: 25px;
+}
+.menu>li{
+    margin:5px;
+}
+.search{
+    margin:5px;
+}
+.btn{
+    color:#fff;
+    background-color: orange;
+    height: 20px;
+    width: 60px;
+    text-align: center;
+
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.card{
+    border-radius: 5px;
+    margin:5px;
+    padding:5px;
+    width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.img-width{
+    width:250px;
+}
+.card-dis{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
